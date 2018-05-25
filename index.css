@@ -1,0 +1,173 @@
+﻿/*top start*/
+.header{height: 40px;background-color: rgb(51,51,51);margin-bottom: 20px;}
+.header .header_main{width: 1220px;height:40px;margin: 0 auto;}
+.header  .header_main .header_left{width: 380px;
+color: #424242;
+height: 40px;
+line-height: 40px;
+float: left;}
+.header  .header_main  a{
+	color: #b0b0b0;
+
+}
+.header  .header_main span{
+	margin: 0 2px; 
+}
+.header  .header_main  a:hover{
+	color: #fff;
+}
+.header  .header_main .header_right{
+	float: right;
+	width: 277px;
+line-height: 40px;
+}
+.header  .header_main .header_right .l_right{
+	float: left;
+}
+.header  .header_main .header_right .r_right{
+	float: right;
+	background:#424242;
+	width: 122px;
+	text-align: center;
+}
+/*top end*/
+/*nav start*/
+.nav{
+    clear: both;
+	height:56px;
+}
+.nav .nav_wrapper{
+	width: 1220px;
+	height: 56px;
+	margin: 0 auto;
+}
+.nav .nav_left{
+float: left;
+height: 56px;
+}
+.nav .nav_mid{
+height: 56px;
+line-height: 56px;
+float: left;
+width: 620px;
+margin-left:150px; 
+}
+.nav .nav_mid li{
+	float: left;
+	padding-right: 10px;
+}
+
+.nav .nav_mid li a{
+	color:#333333; 
+	font-size:16px; 
+}
+.nav .nav_mid li a:hover{
+	color: #f40;
+}
+.nav .nav_right{
+	height: 56px;
+    float: right;
+    position: relative;
+
+} 
+.nav .nav_right .nav_right_text{
+	width: 240px;
+	float:right; 
+	margin-right: 56px;
+}
+.nav .nav_right .nav_right_text .nav_txt{
+	width: 240px;
+	height: 56px;
+}
+	.nav .nav_right .nav_right_text a{
+		background-color: #eee;
+		position: absolute;
+	    line-height: 26px;
+	    top: 50%;
+	    color:#333333; 
+	    width: 80px;
+	    text-align: center;
+	    margin-top: -13px;
+	}
+	.nav .nav_right .nav_right_text a:hover{
+		background-color: #FF6700;
+	}
+.nav .nav_right .nav_right_text .nav_a_l{
+	right:148px;
+	
+}
+.nav .nav_right .nav_right_text .nav_a_r{
+	right: 60px;
+	
+}
+.nav .nav_right .ss{
+	position: absolute;
+	height: 60px;
+	width: 56px;
+	top:0px;
+	border:1px solid #B0B0B0;
+	right: 0px;
+	background: #fff;
+	cursor: pointer;
+}
+.nav .nav_right .ss:hover{
+	background-color:#FF6700; 
+}
+/*nav end*/
+ /*main start */
+.main{
+	clear: both;
+	width:1226px ;
+	height: 460px;
+	margin:0 auto;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.main .main_left{
+	position: absolute;
+	width:234px; 
+	top: 0px;
+	left: 0px;
+	background-color: #0F495E;
+	z-index: 1;
+}
+
+.main .main_left ul{
+	margin: 20px 0;
+}
+.main .main_left ul li{
+	padding: 11px 20px;
+
+}
+.main .main_left ul li a{
+	color: #fff;
+
+	font-size: 15px;
+}
+.main .main_left .main_r{
+float: right;
+margin-right:5px; 
+}
+.main .main_left ul li:hover{
+	background-color: #FF6700;
+}
+.main .main_right{
+	width:500%;
+	height: 460px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(0,0); /* 初始位置位移 */
+    animation: loop 10s linear infinite;
+}
+@keyframes loop {
+            from{
+                left: 0;
+            }
+            to{
+                left: -4904px;
+            }
+}
+ /*main end */
+
